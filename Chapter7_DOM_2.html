@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 DOM_2</title>
+    <link rel="stylesheet" href="css/styel.css">
+<body>
+    <h4 ><a id="backtohome" href="Index.html" style="text-decoration: none">Back to Home</a></h4>
+    <p class="title">Chapter 6 : DOM : Part-1 off 2</p>
+    <p class = "para2" name="paraName"> Chapter highlights</p>
+    <ol>
+        <li id = "thisIsLiIdattribute">div Attributes</li>
+        <ol type="A">
+            <li>getAttribute Method 
+                <ul>
+                    <li class="bold">Syntax for div: </li><p>div.getattribute("h4");</p>
+                    <li class="bold">Syntax for class:</li> <p>div.getattribute(".className");</p>
+                    <li class="bold">Syntax for id: </li><p>div.getattribute("#id");</p>
+                </ul> 
+            </li>
+            <li>SetAttribute</li>
+            <ul> <li class="bold">Syntax for div: </li><p>div.setAttribute("Attr", "newValue");</p></ul>
+            <li></li>
+        </ol>
+        <li>Adding Elements Dynamically
+            <ul>
+                <li class="bold">Syntex for adding element</li>
+                <p>let newButton = document.addNewElement("Button");</p>
+            </ul>
+        </li>
+        <div class="box1">
+            <li class="homework">Read About in msdn
+                <ol>
+                 <li class="important">appendChild();</li>
+                 <li class="important">removeChild();</li>
+                </ol>
+             </li>
+        </div>
+        
+        <li class = "box2">trhis is box 2</li>
+    </ol>
+    <p id="para">this is a code test block</p>
+    <div id="box" class="box1">this is text in box</div><br>
+    <button onclick="changeBoxClass()">change box style</button>
+    <script src="js/DOM_Part_2.js"></script>
+</body>
+</html>

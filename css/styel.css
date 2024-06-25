@@ -1,0 +1,72 @@
+h3{
+    color: blue;
+    background-color: pink;
+    text-decoration-color: blueviolet;
+}
+h4{
+    color: greenyellow;
+    background-color: green;
+}
+button {
+background-color: blueviolet;
+color: whitesmoke;
+height:30px;
+width:auto;
+border-radius: 10vh;
+}
+.important{
+    color: blue;
+    font-weight: bolder;
+}
+.homework{
+    color: yellow;
+}
+.title{
+    font-weight: bolder;
+}
+.box1{
+    height: 200px;
+    width: 500px;
+    background-color: aqua;
+    color: blue;
+}
+.box2{
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+    color: aqua;
+    margin-top: 3pt;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    color:blue;
+    margin-bottom: 3px;
+   align-self: flex-end;
+}
+.bold{
+    font-weight: bold;
+}
+.list{
+    color: yellow;
+    background-color: green;
+}
+.item{
+    color:aqua;
+    background-color: black;
+    border-radius: 0.5;
+    border-style: solid;
+    border-color: white;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: lightgray;
+    color: black;
+}
+body {
+    background-color: lightgray;
+}
